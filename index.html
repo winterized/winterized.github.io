@@ -1,241 +1,1430 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Looking for the marketer/developer? Well, you're just a click away.">
-    <meta name="keywords" content="aurelien, fontaine, aurelien fontaine, full stack marketer, ux developer">
-	<meta name="author"      content="Aurélien Fontaine">
-	
-	<title>Aurélien Fontaine. Full-stack marketer & UX developer</title>
-
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap itself -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Fonts -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
     
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-42587880-3', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <!-- Site Title -->
+    <title>Aurelien Fontaine</title>
+    
+    <meta name="description" content="Aurelien Fontaine is a product designer and developer currently based in Paris, France. His latest works are the iOS apps Kitchen Timer(s), Currencies On The Move, Name That Band...">
+    <meta name="keywords" content="aurelien,fontaine,digital,product,designer,developer,coder,france">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker:400' rel='stylesheet' type='text/css'>
+
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Font icons CSS -->
+    <link href="assets/plugins/icons-mind/style.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Plugins CSS -->
+    <link href="assets/plugins/jpreloader/css/jpreloader.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/animate-css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/magnificPopup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/flexSlider/flexslider.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/morphext/morphext.css" rel="stylesheet" type="text/css">
+    
+    <!-- Main CSS -->
+    <link href="assets/css/berg.css" rel="stylesheet" type="text/css">
+    
+    <!-- Color CSS -->
+    <link href="assets/css/colors/orange.css" rel="stylesheet" type="text/css">
+    
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 8]>
+    <script src="assets/plugins/modernizr.min.js"></script>
+    <![endif]-->
 </head>
 
-<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
-<!--<body class="theme-invert">-->
-<body>
-<!--<nav class="mainmenu">
-	<div class="container">
-		<div class="dropdown">
-			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			--><!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> --><!--
-			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-				<li><a href="#head" class="active">Hello</a></li>
-				<li><a href="#about">About me</a></li>
-				<li><a href="#themes">Themes</a></li>
-				<li><a href="#contact">Get in touch</a></li>
-			</ul>
-		</div>
-	</div>
-</nav>-->
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="66">
+    <!--[if lt IE 10]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-
-<!-- Main (Home) section -->
-<section class="section" id="head">
-	<div class="container">
-
-		<div class="row">
-			<div class="bloc-titre col-md-10 col-md-offset-1 text-center">	
-
-				<!-- Site Title, your name, HELLO msg, etc. -->
-				<h1 class="title">Full-stack marketer<br>& UX developer</h1>
-				<!--<h2 class="subtitle">Free html5 template by GetTemplate</h2>-->
-
-				<!-- Short introductory (optional) -->
-				<h3 class="tagline">
-					<!--<em>Opportunity is missed by most people because it is dressed in overalls and looks like work.</em><br>-Thomas Edison-->
-                    <div class="sns-list">
-                        <a href="http://twitter.com/aurelien_f"><i id="i1" class="fa fa-twitter fa-lg grow"></i></a>
-                        <a href="http://www.linkedin.com/pub/aur%C3%A9lien-fontaine/28/161/6a1"><i id="i2" class="fa fa-linkedin fa-lg grow"></i></a>
-                        <a href="http://stackoverflow.com/users/4049858/winterized"><i id="i3" class="fa fa-stack-overflow fa-lg grow"></i></a>
-                        <a href="http://medium.com/@winterized"><i id="i4" class="fa fa-medium fa-lg grow"></i></a>
-                        <SCRIPT TYPE="text/javascript">
-emailE='aurelienfontaine.com'
-emailE=('mail' + '@' + emailE)
-document.write('<a href="mailto:' + emailE + '"><i id="i5" class="fa fa-envelope-o fa-lg grow"></i></a>')
-</script>
-                    </div>
-				</h3>
-				
-				<!-- Nice place to describe your site in a sentence or two 
-				<p><a href="/download/" class="btn btn-default btn-lg">Download template now</a></p>-->
-	
-			</div> <!-- /col -->
-		</div> <!-- /row -->
-        <div class="thumbnail maTronche"><img src="img/aurelien.jpg" class="img-circle"></div>
+  
+    <!-- HERO START -->
+    <header id="home" class="hero">
+        <div class="hero-body">
+            <div class="row">
+                <div class="col-md-12"> <div class="page-scroll"> <a href="#contact"> <img src="assets/images/aurelien.jpg" class="ratio img-circle img-responsive maTronche"> </a> </div>
+                </div>
+            </div>
             
-            <!--<ul class="list-inline sns-list">
-                <a href="#" class="fa-stack fa-lg">
-                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x"></i>
-                </a>
-                <a href="#" class="fa-stack fa-lg">
-                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x"></i>
-                </a>
-                <a href="#" class="fa-stack fa-lg">
-                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                    <i class="fa fa-stack-overflow fa-stack-1x"></i>
-                </a>
-                <a href="#" class="fa-stack fa-lg">
-                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                    <i class="fa fa-medium fa-stack-1x"></i>
-                </a>
-                <a href="#" class="fa-stack fa-lg">
-                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x"></i>
-                </a>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                <a href="#"><i class="fa fa-stack-overflow fa-2x"></i></a>
-                <a href="#"><i class="fa fa-medium fa-2x"></i></a>
-                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-            </ul>-->
-            <!--<span class="fa-stack fa-lg">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x"></i>
-            </span>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-medium fa-stack-1x"></i>
-            </span>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-stack-overflow fa-stack-1x"></i>
-            </span>
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>-->
+            <div class="hero-text text-center">
+                <h1>Hi, I'm Aurelien<span class="blinker"></span>
+                </h1>
+                
+                <h1 class="small"><span id="js-rotating">I do research, | I get ideas, | I make them happen.</span></h1>
+                
+                <!--<p>28 years young, husband and father, coffee addict.</p>-->
+                
+                <div class="page-scroll">
+                    <a href="#profile" class="btn btn-lg btn-custom">
+                        Learn more
+                    </a>
+                </div>
+                <!-- //.page-scroll -->
+            </div>
+            <!-- //.hero-text -->
+        </div>
+        <!-- //.hero-body -->
+    </header>
+    <!-- //HERO END -->
+    
+    
+    <!-- NAVIGATION START -->
+    <nav id="navigation" class="navbar navbar-fixed-top center-menu" role="navigation">
+        <div class="container navbar-container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand visible-xs visible-sm" href="#page-top">AF</a>
+            </div>
+            <!-- //.navbar-header -->
+            
+            <div class="navbar-collapse collapse berg-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="page-scroll">
+                        <a href="#home">Home</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#profile">Manifesto</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#resume">Bio</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#knowledge">Skills</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#services">Now what?</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- //.navbar-collapse -->
+        </div>
+        <!-- //.navbar-container -->
+    </nav>
+    <!-- //NAVIGATION END -->
+    
+    
+    <!-- PROFILE SECTION START -->
+    <section id="profile" class="section">
+        <div class="container section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title text-center">What I'm good at</h2>
+                        <p class="section-subtitle text-center">Different jobs, but only one process</p>
+                        <span class="divider center"></span>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-md-7 match-height">
 
-	</div>
-</section>
+                        <!-- PROFILE TEXT START -->
+                        <div class="profile-text padding-right-yes">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!--<h2 class="section-title">Different jobs, but only one process</h2>-->
 
-<!-- Second (About) section -->
-<section class="section" id="about">
-	<div class="container">
-	
-		<h2 class="text-center title">About me</h2>
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-2">    
-				<h5><strong>Where's my lorem ipsum?<br></strong></h5>
-				<p>Well, here it is: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ullam, ducimus, eaque, ex autem est dolore illo similique quasi unde sint rerum magnam quod amet iste dolorem ad laudantium molestias enim quibusdam inventore totam fugit eum iusto ratione alias deleniti suscipit modi quis nostrum veniam fugiat debitis officiis impedit ipsum natus ipsa. Doloremque, id, at, corporis, libero laborum architecto mollitia molestiae maxime aut deserunt sed perspiciatis quibusdam praesentium consectetur in sint impedit voluptates! Deleniti, sequi voluptate recusandae facere nostrum?</p>    
-			</div>
-			<div class="col-sm-4">
-				<h5><strong>More, more lipsum!<br></strong></h5>    
-				<p>Tempore, eos, voluptatem minus commodi error aut eaque neque consequuntur optio nesciunt quod quibusdam. Ipsum, voluptatibus, totam, modi perspiciatis repudiandae odio ad possimus molestias culpa optio eaque itaque dicta quod cupiditate reiciendis illo illum aspernatur ducimus praesentium quae porro alias repellat quasi cum fugiat accusamus molestiae exercitationem amet fugit sint eligendi omnis adipisci corrupti. Aspernatur.</p>    
-				<h5><strong>Author links<br></strong></h5>    
-				<p><a href="http://be.net/pozhilov9409">Behance</a> / <a href="https://twitter.com/serggg">Twitter</a> / <a href="http://linkedin.com/pozhilov">LinkedIn</a> / <a href="https://www.facebook.com/pozhilov">Facebook</a></p>
-			</div>
-		</div>
-	</div>
-</section>
+                                    <p>I'm 35 now, and here is the one process I've used in every job: doing research, getting ideas and making them happen. And then iterating until success.
+                                    </p>
 
-<!-- Third (Works) section -->
-<section class="section" id="themes">
-	<div class="container">
-	
-		<h2 class="text-center title">More Themes</h2>
-		<p class="lead text-center">
-			Huge thank you to all people who publish<br>
-			their photos at <a href="http://unsplash.com">Unsplash</a>, thank you guys!
-		</p>
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot1.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot4.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot5.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot3.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
+                                    <span class="divider"></span>
 
-		</div>
+                                    <p class="text-grey">
+                                        I currently work at Diavo Lab, a company I created, where I spend most of my time crafting iPhone apps.
+                                    </p>
 
-	</div>
-</section>
+                                    <p class="text-grey">
+                                        When it comes to <span class="bold">product design</span>, this process is clearly defined: finding a niche, doing thorough user research, defining relevant and suitable concepts, sketching a way to implement them, testing them and then finetuning them until the app is ready to be distributed.
+                                    </p>
+                                    <p class="text-grey">
+                                        When I have been doing brand or <span class="bold">product management</span> in mass market industries, the process was already the same: analyzing sales and consumers data, getting ideas for a brand or a brand extension, setting goals, and developing the best ways to achieve them. The only difference was probably that the testing was far less easy and quick to implement than in the digital world.
+                                    </p>
+                                    <p class="text-grey">
+                                        Last but not least, as a self-taught developer, the process seems very similar to me when <span class="bold">writing code</span>: starting with a precise definition of what needs to be delivered, searching the best languages and libraries to write the code in, devising the software architecture and then implementing it and testing it as often as possible.
+                                    </p>
+                                </div>
+                                <!-- //.col-md-12 -->
+                            </div>
+                            <!-- //.row -->
+                        </div>
+                        <!-- //PROFILE TEXT END -->
 
-<!-- Fourth (Contact) section -->
-<section class="section" id="contact">
-	<div class="container">
-	
-		<h2 class="text-center title">Get in touch</h2>
+                        <!-- CONTACT DETAILS START
+                        <div class="contact-details padding-right-yes">
+                            <div class="row">
+                                <div><div class="col-sm-6 col-md-5">-->
+                                    <!--<h4>Contact Details</h4>
 
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 text-center">
-				<p class="lead">Have a question about this template, or want to suggest a new feature?</p>
-				<p>Feel free to email me, or drop me a line in Twitter!</p>
-				<p><b>gt@gettemplate.com</b><br><br></p>
-				<ul class="list-inline list-social">
-					<li><a href="https://twitter.com/serggg" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="https://github.com/pozhilov" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
-					<li><a href="http://linkedin/in/pozhilov" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
-				</ul>
-			</div>
-		</div>
+                                    <ul class="list-unstyled text-grey">
+                                        <li>Nick Berg</li>
+                                        <li>123 Water Seven, Grand Line</li>
+                                        <li>+123 456 7890</li>
+                                        <li>hello@nickberg.com</li>
+                                        <li>www.nickberg.com</li>
+                                    </ul>
+                                </div>-->
+                                <!-- //.col-md-5 -->
 
-	</div>
-</section>
+                                <!--<div class="col-sm-6 col-md-7">
+                                    <a href="#" class="btn btn-lg btn-custom">
+                                        <i class="icon-File-Download"></i> Download Resume
+                                    </a>
+                                </div>-->
+                                <!-- //.col-md-6 
+                            </div>
+                            <!-- //.row 
+                        </div>
+                        //CONTACT DETAILS END -->
 
+                    </div>
+                    <!-- //.col-md-7 -->
 
-<!-- Load js libs only when the page is loaded. -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="js/modernizr.custom.72241.js"></script>
-<!-- Custom template scripts -->
-<script src="js/main.js"></script>
+                    <!-- PROFILE PICTURE START
+                    <div class="col-md-5 hidden-xs hidden-sm match-height pp-wrapper">
+                        <div class="profile-picture style-one">
+                            <img src="assets/images/profile-picture-1.jpg" alt="profile picture" class="img-responsive"/>
+                        </div>
+                    </div>
+                    //PROFILE PICTURE END -->
+                    <!-- WORK PROCESS START -->
+                <!--<div class="col-md-1 hidden-xs hidden-sm match-height">
+                </div>-->
+                <div class="work-process col-md-4 col-md-offset-1 hidden-xs hidden-sm match-height">
+                    <div class="row">
+                        <div class="item no-margin first">
+                            <div class="inner-content">
+                                <i class="icon-Magnifi-Glass2"></i>
+
+                                <span class="title">1. Research</span>
+
+                                <span class="dot"></span>
+                            </div>
+                            <!-- //.inner-content -->
+
+                            <i class="icon-Arrow icon-Down-3"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item no-margin">
+                            <div class="inner-content">
+                                <i class="icon-Light-Bulb2"></i>
+
+                                <span class="title">2. Get ideas</span>
+                                
+                                <span class="dot"></span>
+                            </div>
+                            <!-- //.inner-content -->
+
+                            <i class="icon-Arrow icon-Down-3"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item no-margin">
+                            <div class="inner-content">
+                                <i class="icon-Monitor-2"></i>
+
+                                <span class="title">3. Design</span>
+                                
+                                <span class="dot"></span>
+                            </div>
+                            <!-- //.inner-content -->
+
+                            <i class="icon-Arrow icon-Down-3"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item no-margin">
+                            <div class="inner-content">
+                                <i class="icon-Coding"></i>
+
+                                <span class="title">4. Develop</span>
+                                
+                                <span class="dot"></span>
+                            </div>
+                            <!-- //.inner-content -->
+
+                            <i class="icon-Arrow icon-Down-3"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item no-margin">
+                            <div class="inner-content">
+                                <i class="icon-Test-Tube2"></i>
+
+                                <span class="title">5. Test</span>
+                                
+                                <span class="dot"></span>
+                            </div>
+                            <!-- //.inner-content -->
+
+                            <i class="icon-Arrow icon-Down-3"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item no-margin last">
+                            <div class="inner-content">
+                                <i class="icon-Loop"></i>
+
+                                <span class="title">...then loop steps 1-5</span>
+                                
+                            </div>
+                            <!-- //.inner-content -->
+
+                        </div>
+                    </div>
+                    <!-- //.row -->
+                </div>
+                <!-- //WORK PROCESS END -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+    </section>
+    <!-- //PROFILE SECTION END -->
+    
+    
+    <!-- PORTFOLIO SECTION START -->
+    <section id="portfolio" class="section bg-image-yes">
+        <div class="container-fluid section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title">What I recently did</h2>
+
+                        <p class="section-subtitle">Here are the latest projects I designed and coded.</p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-12 -->
+                </div>
+                <!-- //.row -->
+                
+                <!-- PORTFOLIO START -->
+                <div class="portfolio">
+                    <div class="row">
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-1.jpg" class="zoom" title="Currencies On The Move">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="https://itunes.apple.com/app/currencies-on-move-currency/id1050218213" target="_blank" class="external-link">
+                                        <i class="icon-To-Right"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Currencies On The Move</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="assets/images/portfolio/project-image-1.jpg" alt="" class="img-responsive"/>
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-2.jpg" class="zoom" title="Kitchen Timer(s)">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="https://itunes.apple.com/app/kitchen-timer-s-multitimer/id997369673" target="_blank" class="external-link">
+                                        <i class="icon-To-Right"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Kitchen Timer(s)</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="assets/images/portfolio/project-image-2.jpg" alt="" class="img-responsive"/>
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-3.jpg" class="zoom" title="Name That Band">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="https://itunes.apple.com/app/name-that-band/id796410967" target="_blank" class="external-link">
+                                        <i class="icon-To-Right"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Name That Band</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="assets/images/portfolio/project-image-3.jpg" alt="" class="img-responsive"/>
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-4.jpg" class="zoom" title="Diavo Lab website">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="http://www.diavolab.com/" target="_blank" class="external-link">
+                                        <i class="icon-To-Right"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Diavo Lab website</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="assets/images/portfolio/project-image-4.jpg" alt="" class="img-responsive"/>
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+                    </div>
+                    <!-- //.row -->
+                </div>
+                <!-- PORTFOLIO END -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container-fluid -->
+    </section>
+    <!-- //PORTFOLIO SECTION END -->
+    
+    <!-- RESUME SECTION START -->
+    <section id="resume" class="section">
+        <div class="container section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2 class="section-title">Where I come from</h2>
+
+                        <p class="section-subtitle">
+                            Marketing executive, product designer, iOS developer... What's the story here?<br>Want more details? Please check my <a href="https://www.linkedin.com/in/aur%C3%A9lien-fontaine-6a116128" target="_blank" class="external-link">LinkedIn</a> profile.
+                        </p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-8 -->
+                </div>
+                <!-- //.row -->
+                
+                <!-- WORK EXPERIENCE START -->
+                <div class="row work-experience">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h3>
+                            My Tech years
+                            <br>
+                            2013 - Now
+                        </h3>
+
+                        <div class="panel-group resume" id="work">
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2016</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#work1" data-toggle="collapse" data-parent="#work"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Launched 'Currencies On The Move'</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="work1" class="panel-collapse collapse in">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Product design, UX design, UI design.
+                                                <br>
+                                                Wrote the code in Swift for the iPhone and iPad app and its watch extension.
+                                                <br>
+                                                Has been <span class="bold">featured on the iTunes store homepage</span> as a best app of the week in Western Europe, China and Japan.
+                                                <br>
+                                                Reached Top 5 travel apps in 17 countries, including UK, China, Japan, France...
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2015</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#work2" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Created 'Kitchen Timer(s)'</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="work2" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Product design, UX design, UI design.
+                                                <br>
+                                                Wrote the code in Swift for the iPhone and iPad app and its watch extension.
+                                                <br>
+                                                Is regularly featured on the iTunes store homepage in Western Europe and Japan.
+                                                <br>
+                                                <span class="bold">Reached Top 5 food apps in 24 countries</span>, including UK, Japan, Germany, France, India...
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2014</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#work3" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">First launch of 'Name That Band'</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="work3" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Subcontracted UI design to a friend.
+                                                <br>
+                                                Wrote the code in <span class="bold">Objective-C</span> for the iPhone and iPad app.
+                                                <br>
+                                                Has been featured on the iTunes store in the Middle East and Oceania.
+                                                <br>
+                                                Was #1 music game in New Zealand and #2 in Australia for a few weeks when it came out.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2013</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#work4" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Incorporated Diavo Lab</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="work4" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Created the company with a graphic designer friend who helped me make our first app, Name That Band.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+                        </div>
+                        <!-- //.panel-group -->
+                    </div>
+                    <!-- //.col-md-10 -->
+                </div>
+                <!-- //WORK EXPERIENCE END -->
+                
+                <!-- FMCG EXPERIENCE START -->
+                <div class="row fmcg">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h3>
+                            My FMCG years
+                            <br>
+                            2001-2013
+                        </h3>
+
+                        <div class="panel-group resume" id="fmcg">
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2011 - 2013</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#fmcg1" class="collapsed" data-toggle="collapse" data-parent="#fmcg"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">International Marketing Manager @ DIM</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="fmcg1" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Identification and analysis of needs from different geographies and channels of trade.
+                                                <br>Recommendation of the category strategy and market research.
+                                                <br>Product development with the design team and the operations department.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2004 - 2010</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#fmcg2" class="collapsed" data-toggle="collapse" data-parent="#fmcg"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Marketing manager @ JUVA SANTE</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="fmcg2" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Successively product manager, group marketing manager then marketing director in this French company selling parapharmaceutical products in grocery stores and supermarkets.
+                                                <br>
+                                                Successfully launched more than 100 products and created several brands.
+                                                <br>
+                                                Net sales of ranges under my responsiblity increased by at least 10% per year throughout my time there.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2003 - 2004</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#fmcg3" class="collapsed" data-toggle="collapse" data-parent="#fmcg"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Assistant brand manager @ Sara Lee</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="fmcg3" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Market data and brand performance analysis (panel, studies), recommendations and project management (sales promotion, in-store demonstration, advertising...)
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2001 - 2002</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#fmcg4" class="collapsed" data-toggle="collapse" data-parent="#fmcg"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Account manager (intern) @ Euro RSCG Compagnie</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="fmcg4" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                In charge of mass market brands
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+                        </div>
+                        <!-- //.panel-group -->
+                    </div>
+                    <!-- //.col-md-10 -->
+                </div>
+                <!-- //FMCG EXPERIENCE END -->
+                
+                <!-- EDUCATION START -->
+                <div class="row education">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h3>
+                            My Education
+                            <br>
+                            1997 - Now
+                        </h3>
+
+                        <div class="panel-group resume" id="education">
+                            
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2016</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#education4" class="collapsed" data-toggle="collapse" data-parent="#education"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Machine learning & Data science @ coursera</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="education4" class="panel-collapse collapse in">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                First, I passed Pr. Andrew Ng's Stanford University Course on <a href="https://www.coursera.org/account/accomplishments/certificate/3CFLBS4Y9T9R" target="_blank" class="external-link">Machine Learning</a>.
+                                                <br> I got hooked and I'm currently having a Machine Learning specialization with University of Washington courses, and Data Science specialization with John Hopkins University courses.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+                            
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2016</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#education5" data-toggle="collapse" data-parent="#education"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Algorithmic toolbox @ UC San Diego</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="education5" class="panel-collapse collapse in">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                I wanted to improve my skills as an efficient programmer and <a href="https://www.coursera.org/account/accomplishments/certificate/T74VSBP4QH4S" target="_blank" class="external-link">successfully passed</a> this course online through Coursera.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+                            
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2013 - 2014</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#education3" class="collapsed" data-toggle="collapse" data-parent="#education"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">iOS programming @ self-taught</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="education3" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                I started learning object-oriented programing with a little Java. Then I switched to Objective-C to write iOS apps, and later to Swift when it came out. Never looked back ;)
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+                            
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2003</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#education1" data-toggle="collapse" data-parent="#education"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Master's Degree @ Edhec Business School</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="education1" class="panel-collapse collapse in">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Edhec is <a href="http://rankings.ft.com/businessschoolrankings/european-business-school-rankings-2014" target="_blank" class="external-link">one of the 20 best European business schools</a>, according to the Financial Times ranking. It is #5 in France.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">1997</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#education2" class="collapsed" data-toggle="collapse" data-parent="#education"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">French 'baccalauréat' in science</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="education2" class="panel-collapse collapse">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Quick tip for non-French people: this degree is the one you pass when completing high school.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+
+                        </div>
+                        <!-- //.panel-group -->
+                    </div>
+                    <!-- //.col-md-10 -->
+                </div>
+                <!-- //EDUCATION END -->
+            
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+    </section>
+    <!-- //RESUME SECTION END -->
+    
+    
+    <!-- KNOWLEDGE SECTION START -->
+    <section id="knowledge" class="section bg-image-yes">
+        <div class="container-fluid section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2 class="section-title">Expertise</h2>
+
+                        <p class="section-subtitle">Throughout my different fields of experience, I developed a few areas of expertise.</p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-8 -->
+                </div>
+                <!-- //.row -->
+                
+                <!-- BAR CHART START -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="bar-chart">
+                            <div class="item">
+                                <h4>Brand Marketing</h4>
+
+                                <div class="bar">
+                                    <span class="percent">75%</span>
+                                    <span class="item-progress" data-percent="75"></span>
+                                </div>
+                                <!-- //.bar -->
+                            </div>
+                            <!-- //.item -->
+
+                            <div class="item">
+                                <h4>Product Design</h4>
+
+                                <div class="bar">
+                                    <span class="percent">80%</span>
+                                    <span class="item-progress" data-percent="80"></span>
+                                </div>
+                                <!-- //.bar -->
+                            </div>
+                            <!-- //.item -->
+
+                            <div class="item">
+                                <h4>Code Design</h4>
+
+                                <div class="bar">
+                                    <span class="percent">70%</span>
+                                    <span class="item-progress" data-percent="70"></span>
+                                </div>
+                                <!-- //.bar -->
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.bar-chart -->
+                    </div>
+                    <!-- //.col-md-6 -->
+
+                    <div class="col-sm-6 col-md-6">
+                        <div class="bar-chart">
+                            <div class="item">
+                                <h4>Digital marketing</h4>
+
+                                <div class="bar">
+                                    <span class="percent">60%</span>
+                                    <span class="item-progress" data-percent="60"></span>
+                                </div>
+                                <!-- //.bar -->
+                            </div>
+                            <!-- //.item -->
+
+                            <div class="item">
+                                <h4>Data Analysis</h4>
+
+                                <div class="bar">
+                                    <span class="percent">80%</span>
+                                    <span class="item-progress" data-percent="80"></span>
+                                </div>
+                                <!-- //.bar -->
+                            </div>
+                            <!-- //.item -->
+
+                            <div class="item">
+                                <h4>Management</h4>
+
+                                <div class="bar">
+                                    <span class="percent">65%</span>
+                                    <span class="item-progress" data-percent="65"></span>
+                                </div>
+                                <!-- //.bar -->
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.bar-chart -->
+                    </div>
+                    <!-- //.col-md-6 -->
+                </div>
+                <!-- //BAR CHART END -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+        
+    </section>
+    <!-- //KNOWLEDGE SECTION END -->
+    
+
+    <!-- SKILLS SECTION START -->
+    <section id="skills" class="section">
+        <div class="container section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2 class="section-title">Coding Skills</h2>
+
+                        <p class="section-subtitle">These last few years, I took different opportunities to get my hands dirty with writing code in different languages.</p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-8 -->
+                </div>
+                <!-- //.row -->
+                
+                <!-- CIRCLE CHART START -->
+                <div class="circle-chart">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-2">
+                            <div class="item">
+                                <div class="circle">
+                                    <span class="item-progress" data-percent="85"></span>
+                                </div>
+                                <!-- //.circle -->
+
+                                <span class="percent">85%</span>
+
+                                <h4 class="text-center">Swift</h4>
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.col-md-2 -->
+
+                        <div class="col-sm-4 col-md-2">
+                            <div class="item">
+                                <div class="circle">
+                                    <span class="item-progress" data-percent="70"></span>
+                                </div>
+                                <!-- //.circle -->
+
+                                <span class="percent">70%</span>
+
+                                <h4 class="text-center">Objective-C</h4>
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.col-md-2 -->
+
+                        <div class="col-sm-4 col-md-2">
+                            <div class="item">
+                                <div class="circle">
+                                    <span class="item-progress" data-percent="65"></span>
+                                </div>
+                                <!-- //.circle -->
+
+                                <span class="percent">65%</span>
+
+                                <h4 class="text-center">Javascript<br>Python</h4>
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.col-md-2 -->
+
+                        <div class="col-sm-4 col-md-2">
+                            <div class="item">
+                                <div class="circle">
+                                    <span class="item-progress" data-percent="70"></span>
+                                </div>
+                                <!-- //.circle -->
+
+                                <span class="percent">70%</span>
+
+                                <h4 class="text-center">HTML + CSS</h4>
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.col-md-2 -->
+
+                        <div class="col-sm-4 col-md-2">
+                            <div class="item">
+                                <div class="circle">
+                                    <span class="item-progress" data-percent="55"></span>
+                                </div>
+                                <!-- //.circle -->
+
+                                <span class="percent">55%</span>
+
+                                <h4 class="text-center">MATLAB</h4>
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.col-md-2 -->
+
+                        <div class="col-sm-4 col-md-2">
+                            <div class="item last">
+                                <div class="circle">
+                                    <span class="item-progress" data-percent="50"></span>
+                                </div>
+                                <!-- //.circle -->
+
+                                <span class="percent">50%</span>
+
+                                <h4 class="text-center">R</h4>
+                            </div>
+                            <!-- //.item -->
+                        </div>
+                        <!-- //.col-md-2 -->
+                    </div>
+                    <!-- //.row -->
+                </div>
+                <!-- //CIRCLE CHART END -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+    </section>
+    <!-- //SKILLS SECTION END -->
+    
+        <!-- SERVICES SECTION START -->
+    <section id="services" class="section bg-image-yes">
+        <div class="container-fluid section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2 class="section-title">What I'm up to</h2>
+
+                        <p class="section-subtitle">
+                            I love what I do. Yet, there is only so much one man can do alone. Now, I would like to join a team to focus on one of the three main areas of expertise below and get some meaningful work done.
+                        </p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-8 -->
+                </div>
+                <!-- //.row -->
+            
+                <!-- SERVICES START -->
+                <div class="services">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 item dark-bg match-height">
+                            <div class="inner-content">
+                                <i class="icon-Transform-2 colored-text"></i>
+
+                                <h4>1. Product Design</h4>
+
+                                <p class="text-grey">
+                                    Defining the right business objectives, understanding the users' expectations and translating them into a smart product and an optimal user experience can be quite challenging.<br><br>That's exactly what I've done with my last 3 apps which have all been singled out by the iTunes editorial team.<br><br>And being a designer who codes can help.
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="col-sm-4 col-md-4 item dark-bg match-height">
+                            <div class="inner-content">
+                                <i class="icon-Big-Data colored-text"></i>
+
+                                <h4>2. Data Science</h4>
+
+                                <p class="text-grey">
+                                    Whichever business you're in, data is or will be critical to make a difference with your customers. Getting data is the first step, using it efficiently is another.<br><br>I successfully used data throughout my career when it was on a spreadheet, and I recently passed courses to use it in a rawer and bigger format as it usually is these days.
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="col-sm-4 col-md-4 item dark-bg match-height">
+                            <div class="inner-content">
+                                <i class=" icon-Monitor-Tablet colored-text"></i>
+
+                                <h4>3. Code & Development</h4>
+
+                                <p class="text-grey">
+                                    When it comes to writing code for a truely user-oriented app, it is a real asset to understand perfectly what the product designers want.<br>When you wish to finetune a machine learning algorithm, it is critical to keep in mind what is relevant for the business and what is time-consuming and not so relevant.<br>My experience in both worlds is a real added value here for a code written with business in mind.
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+                    </div>
+                    <!-- //.row -->
+                </div>
+                <!-- //SERVICES END -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+    </section>
+    <!-- //SERVICES SECTION END -->    
+    
+    <!-- CONTACT SECTION START -->
+    <section id="contact" class="section">
+        <div class="container section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title">Get in touch</h2>
+
+                        <p class="section-subtitle">
+                            Have a project you'd like to discuss?
+                        </p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-12 -->
+                </div>
+                <!-- //.row -->
+                
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <!-- CONTACT DETAILS START -->
+                        <div class="contact-details text-center">
+                            <a href="mailto:mail@aurelienfontaine.com" target="_top">
+                            <div class="speech-bubble">
+                                <i class="icon-Speach-Bubble11"></i>
+
+                                <h4 class="text-grey">
+                                    Say<br>Hi
+                                </h4>
+                            </div>
+                            </a>
+                            <!-- //.speech-bubble -->
+
+                            <h2>Aurelien <strong>Fontaine</strong></h2>
+
+                            <h4 class="text-grey"><a href="mailto:mail@aurelienfontaine.com" target="_top">mail@aurelienfontaine.com</a></h4>
+                            
+                            <span class="divider center"></span>
+                            
+                            <ul class="list-inline social-icons">
+                        
+                                <li>
+                                    <div class="item">
+                                        <a href="http://www.linkedin.com/pub/aur%C3%A9lien-fontaine/28/161/6a1" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                    <!-- //.item -->
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <a href="http://twitter.com/aurelien_f" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                    <!-- //.item -->
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <a href="http://stackoverflow.com/users/4049858/winterized" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+                                    </div>
+                                    <!-- //.item -->
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <a href="http://medium.com/@winterized" target="_blank"><i class="fa fa-medium"></i></a>
+                                    </div>
+                                    <!-- //.item -->
+                                </li>
+                            </ul>
+
+                            <span class="divider center"></span>
+                        </div>
+                        <!-- //CONTACT DETAILS END -->
+                        
+                    </div>
+                    <!-- //.col-md-12 -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+    </section>
+    <!-- //CONTACT SECTION END -->
+    
+    
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-scroll">
+                        <a href="#page-top"><i class="icon-Arrow-Up"></i></a>
+                    </div>
+                    <!-- //.page-scroll -->
+                    
+                    
+                </div>
+                <!-- //.col-md-12 -->
+            </div>
+            <!-- //.row -->
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright text-center">
+                        <p class="text-grey">&copy; 2016 Aurelien Fontaine</p>
+                    </div>
+                    <!-- //.copyright -->
+                </div>
+                <!-- //.col-md-12 -->
+            </div>
+            <!-- //.row -->
+        </div>
+        <!-- //.container -->
+    </footer>
+    <!-- //FOOTER END -->
+    
+    
+    <!-- Plugins JS -->
+    <script src="assets/plugins/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/jpreloader/js/jpreloader.min.js"></script>
+    <script src="assets/plugins/detectmobilebrowser/detectmobilebrowser.js"></script>
+    <script src="assets/plugins/debouncer/debouncer.js"></script>
+    <script src="assets/plugins/easing/jquery.easing.min.js"></script>
+    <script src="assets/plugins/sticky/jquery.sticky.js"></script>
+    <script src="assets/plugins/inview/jquery.inview.min.js"></script>
+    <script src="assets/plugins/matchHeight/jquery.matchHeight-min.js"></script>
+    <script src="assets/plugins/magnificPopup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/flexSlider/jquery.flexslider-min.js"></script>
+    <script src="assets/plugins/countTo/jquery.countTo.js"></script>
+    <script src="assets/plugins/morphext/morphext.min.js"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Text Rotator JS -->
+    <script src="assets/js/text-rotator.js"></script>
+    
+    <!-- Animation JS (Optional) -->
+    <script src="assets/js/animation.js"></script>
+
 </body>
+
 </html>
